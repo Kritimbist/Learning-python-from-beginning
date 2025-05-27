@@ -1,4 +1,5 @@
-Day 01 : Data type
+DAY 01 - DATA TYPE:
+
 Data type define what kind of value a variable hold and what operation can be performed on it.
 **Common Python Data Types:**
 | Data Type  | Description                      | Example                   |
