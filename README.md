@@ -1,24 +1,3 @@
-DAY 01 - DATA TYPE:
-
-Data type define what kind of value a variable hold and what operation can be performed on it.
-**Common Python Data Types:**
-| Data Type  | Description                      | Example                   |
-| ---------- | -------------------------------- | ------------------------- |
-| `int`      | Integer (whole number)           | `5`, `-12`, `100`         |
-| `float`    | Decimal (floating point number)  | `3.14`, `-0.5`            |
-| `str`      | String (text)                    | `"hello"`, `'Python'`     |
-| `bool`     | Boolean (True or False)          | `True`, `False`           |
-| `list`     | Ordered, changeable collection   | `[1, 2, 3]`, `["a", "b"]` |
-| `tuple`    | Ordered, unchangeable collection | `(1, 2, 3)`               |
-| `dict`     | Key-value pairs                  | `{"name": "Alice"}`       |
-| `set`      | Unordered, unique items          | `{1, 2, 3}`               |
-| `NoneType` | Represents "nothing" or no value | `None`                    |
-
-
-# 🐍 Python Data Types
-
-Welcome to this mini-guide on **Data Types in Python**!  
-Understanding data types is one of the most important steps in learning how to code in Python.
 
 ---
 
@@ -90,3 +69,75 @@ Think of it as a label that tells Python: "Hey, this is a number", or "This is a
 ```python
 x = 10
 print(type(x))  # Output: <class 'int'>
+```
+float – Decimal Number
+```python
+pi = 3.14
+print(pi, type(pi))  # Output: 3.14 <class 'float'>
+```
+complex – Complex Number
+```python
+z = 2 + 3j
+print(z, type(z))  # Output: (2+3j) <class 'complex'>
+🔤 Text Type
+str – String (Text)
+```
+string:(Text)
+```python
+
+name = "Alice"
+print(name, type(name))  # Output: Alice <class 'str'>
+```
+✅ Boolean Type
+bool – True or False
+
+```python
+is_active = True
+print(is_active, type(is_active))  # Output: True <class 'bool'>
+```
+📚 Sequence Types
+list – Ordered, Changeable Collection
+```python
+
+fruits = ["apple", "banana", "cherry"]
+print(fruits, type(fruits))  # Output: ['apple', 'banana', 'cherry'] <class 'list'>
+tuple – Ordered, Unchangeable Collection
+```
+```python
+
+colors = ("red", "green", "blue")
+print(colors, type(colors))  # Output: ('red', 'green', 'blue') <class 'tuple'>
+range – Sequence of Numbers
+```
+```python
+
+nums = range(5)
+print(list(nums), type(nums))  # Output: [0, 1, 2, 3, 4] <class 'range'>
+```
+🔑 Mapping Type
+dict – Key-Value Pairs
+```python
+
+person = {"name": "Alice", "age": 25}
+print(person, type(person))  # Output: {'name': 'Alice', 'age': 25} <class 'dict'>
+```
+🪣 Set Types
+set – Unordered, Unique Items
+```python
+
+unique_numbers = {1, 2, 3, 1}
+print(unique_numbers, type(unique_numbers))  # Output: {1, 2, 3} <class 'set'>
+```
+frozenset – Immutable Set
+```python
+
+frozen = frozenset([1, 2, 3])
+print(frozen, type(frozen))  # Output: frozenset({1, 2, 3}) <class 'frozenset'>
+```
+🕳️ None Type
+NoneType – Represents No Value
+```python
+
+empty = None
+print(empty, type(empty))  # Output: None <class 'NoneType'>
+```
