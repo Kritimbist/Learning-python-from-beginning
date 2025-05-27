@@ -4,7 +4,6 @@ DAY 001 : DATA TYPES IN PYTHON
 ## 📦 What is a Data Type?
 
 A **data type** defines the kind of value a variable holds and what operations you can perform with it.  
-Think of it as a label that tells Python: "Hey, this is a number", or "This is a piece of text".
 
 ---
 
