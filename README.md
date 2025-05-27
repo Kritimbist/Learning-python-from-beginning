@@ -1,4 +1,4 @@
-
+DAY 001 : DATA TYPES IN PYTHON
 ---
 
 ## 📦 What is a Data Type?
