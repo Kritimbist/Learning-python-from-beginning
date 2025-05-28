@@ -154,14 +154,14 @@ name = "Alice"
 age = 25
 height = 5.6
 ✅ Arithmetic Operators
-Operator	Description	Example	Output
-+	Addition	10 + 5	15
--	Subtraction	10 - 5	5
-*	Multiplication	10 * 5	50
-/	Division	10 / 5	2.0
-//	Floor Division	10 // 3	3
-%	Modulus (remainder)	10 % 3	1
-**	Exponentiation	2 ** 3	8
+Operator	 Description	 Example	 Output
++	         Addition      	10 + 5	    15
+-	         Subtraction	  10 - 5	     5
+*        	Multiplication	10 * 5	    50
+/         	Division	    10 / 5	    2.0
+//	     Floor Division  	10 // 3    	3
+%	    Modulus (remainder)  10 % 3	   1
+**	    Exponentiation	   2 ** 3	   8
 
 ✅ Comparison Operators
 python
