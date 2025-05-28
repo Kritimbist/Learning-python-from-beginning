@@ -150,38 +150,173 @@ print(empty, type(empty))  # Output: None <class 'NoneType'>
 - Syntax: `variable_name = value`
 
 ```python
-name = "Alice"
-age = 25
-height = 5.6
+name = "Alice"// string variable
+age = 25 // integer varible
+height = 5.6// float variable
 ```
-✅ Arithmetic Operators
-Operator	Description	Example	Output
-+	Addition	10 + 5	15
--	Subtraction	10 - 5	5
-*	Multiplication	10 * 5	50
-/	Division	10 / 5	2.0
-//	Floor Division	10 // 3	3
-%	Modulus (remainder)	10 % 3	1
-**	Exponentiation	2 ** 3	8
+✅  Operators
+In Python, operators are special symbols that perform operations on variables and values. They are the building blocks for performing calculations, comparisons, logical decisions, and more.
+ Types of Operators
+ ---
+ (i) arithmetic-operators
+ (ii) comparison-operators
+ (iii) assignment-operators
+ (iv) logical-operators
+ (v) bitwise-operators
+ (vi) membership operators
+ (vii) identity-operators
+ ---
+ #Arithmetic operators
+Used to perform mathematical operations.
 
-  ```python
-
-✅ Comparison Operators
+```python
 a = 10
-b = 5
+b = 3
 
-print(a > b)   # True
-print(a == b)  # False
-print(a != b)  # True
-
-✅ User Input
-name = input("Enter your name: ")
-print("Hello,", name)
- Note: input() always returns a string. Use int() or float() to convert it if needed.
-
-python
-Copy
-Edit
-age = int(input("Enter your age: "))
-print("Next year you will be", age + 1)
+print(a + b)   # 13 → Addition
+print(a - b)   # 7  → Subtraction
+print(a * b)   # 30 → Multiplication
+print(a / b)   # 3.333... → Division
+print(a // b)  # 3  → Floor Division
+print(a % b)   # 1  → Modulus (remainder)
+print(a ** b)  # 1000 → Exponent (power)
 ```
+#Comparison operators
+Compare two values and return True or False.
+```python
+x = 5
+y = 10
+
+print(x == y)  # False → Equal to
+print(x != y)  # True  → Not equal to
+print(x > y)   # False → Greater than
+print(x < y)   # True  → Less than
+print(x >= y)  # False → Greater than or equal to
+print(x <= y)  # True  → Less than or equal to
+```
+# Assignment Operators
+Used to assign values and perform operations in one line.
+```python
+x = 5
+x += 2   # x = x + 2 → 7
+x -= 1   # x = x - 1 → 6
+x *= 3   # x = x * 3 → 18
+x /= 2   # x = x / 2 → 9.0
+x //= 2  # x = x // 2 → 4.0
+x %= 3   # x = x % 3 → 1.0
+x **= 2  # x = x ** 2 → 1.0
+print(x)
+```
+#Logical Operators
+Used to combine conditional statements.
+```python
+a = True
+b = False
+
+print(a and b)  # False → Both must be true
+print(a or b)   # True  → At least one is true
+print(not a)    # False → Inverts the value
+```
+# Bitwise Operators
+Operate on bits (binary values).
+```python
+a = 5   # 0101
+b = 3   # 0011
+
+print(a & b)  # 1 → AND
+print(a | b)  # 7 → OR
+print(a ^ b)  # 6 → XOR
+print(~a)     # -6 → NOT (inverts all bits)
+print(a << 1) # 10 → Left shift
+print(a >> 1) # 2  → Right shift
+```
+#Membership Operators
+Test if a value exists in a sequence (like string, list, tuple, etc).
+```python
+name = "Python"
+
+print("y" in name)     # True
+print("z" not in name) # True
+```
+#Identity Operators
+Compare the memory location of two objects.
+```python
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+
+print(a is b)      # True  → Same object
+print(a is c)      # False → Different objects
+print(a is not c)  # True
+```
+
+#Simple Program combining all operators
+```python
+a = 10
+b = 3
+
+print(" Arithmetic Operators")
+print("a + b =", a + b)   # 13
+print("a - b =", a - b)   # 7
+print("a * b =", a * b)   # 30
+print("a / b =", a / b)   # 3.33...
+print("a // b =", a // b) # 3
+print("a % b =", a % b)   # 1
+print("a ** b =", a ** b) # 1000
+print()
+
+#  Comparison Operators
+print(" Comparison Operators")
+print("a == b:", a == b)  # False
+print("a != b:", a != b)  # True
+print("a > b:", a > b)    # True
+print("a < b:", a < b)    # False
+print("a >= b:", a >= b)  # True
+print("a <= b:", a <= b)  # False
+print()
+
+#  Assignment Operators
+x = 5
+print(" Assignment Operators")
+x += 2   # x = x + 2
+print("x += 2 →", x)
+x *= 3   # x = x * 3
+print("x *= 3 →", x)
+print()
+
+#  Logical Operators
+is_sunny = True
+have_umbrella = False
+print(" Logical Operators")
+print("is_sunny and have_umbrella:", is_sunny and have_umbrella)  # False
+print("is_sunny or have_umbrella:", is_sunny or have_umbrella)    # True
+print("not is_sunny:", not is_sunny)                               # False
+print()
+
+#  Bitwise Operators (just for demo)
+print(" Bitwise Operators")
+print("a & b =", a & b)   # 2
+print("a | b =", a | b)   # 11
+print()
+
+#  Membership Operators
+name = "Python"
+print(" Membership Operators")
+print("'y' in name:", 'y' in name)        # True
+print("'a' not in name:", 'a' not in name) # True
+print()
+
+#  Identity Operators
+list1 = [1, 2, 3]
+list2 = list1
+list3 = [1, 2, 3]
+print(" Identity Operators")
+print("list1 is list2:", list1 is list2)       # True
+print("list1 is list3:", list1 is list3)       # False
+print("list1 is not list3:", list1 is not list3) # True
+```
+
+
+
+
+
