@@ -154,9 +154,9 @@ name = "Alice"// string variable
 age = 25 // integer varible
 height = 5.6// float variable
 ```
-✅  Operators
+### ✅ Operators
 In Python, operators are special symbols that perform operations on variables and values. They are the building blocks for performing calculations, comparisons, logical decisions, and more.
- Types of Operators
+ ### Types of Operators
  ---
  (i) arithmetic-operators
  (ii) comparison-operators
@@ -165,8 +165,8 @@ In Python, operators are special symbols that perform operations on variables an
  (v) bitwise-operators
  (vi) membership operators
  (vii) identity-operators
- ---
- #Arithmetic operators
+
+ # Arithmetic operators
 Used to perform mathematical operations.
 
 ```python
@@ -181,7 +181,7 @@ print(a // b)  # 3  → Floor Division
 print(a % b)   # 1  → Modulus (remainder)
 print(a ** b)  # 1000 → Exponent (power)
 ```
-#Comparison operators
+# Comparison operators
 Compare two values and return True or False.
 ```python
 x = 5
@@ -207,7 +207,7 @@ x %= 3   # x = x % 3 → 1.0
 x **= 2  # x = x ** 2 → 1.0
 print(x)
 ```
-#Logical Operators
+#  Logical Operators
 Used to combine conditional statements.
 ```python
 a = True
@@ -230,7 +230,7 @@ print(~a)     # -6 → NOT (inverts all bits)
 print(a << 1) # 10 → Left shift
 print(a >> 1) # 2  → Right shift
 ```
-#Membership Operators
+# Membership Operators
 Test if a value exists in a sequence (like string, list, tuple, etc).
 ```python
 name = "Python"
@@ -238,7 +238,7 @@ name = "Python"
 print("y" in name)     # True
 print("z" not in name) # True
 ```
-#Identity Operators
+# Identity Operators
 Compare the memory location of two objects.
 ```python
 a = [1, 2, 3]
@@ -250,7 +250,7 @@ print(a is c)      # False → Different objects
 print(a is not c)  # True
 ```
 
-#Simple Program combining all operators
+# Simple Program combining all operators
 ```python
 a = 10
 b = 3
