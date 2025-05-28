@@ -140,3 +140,49 @@ NoneType – Represents No Value
 empty = None
 print(empty, type(empty))  # Output: None <class 'NoneType'>
 ```
+# 📅 Day 2 – Variables, Operators, and Input/Output in Python
+
+---
+
+
+### ✅ Variables
+- Variables store data for later use.
+- Syntax: `variable_name = value`
+
+```python
+name = "Alice"
+age = 25
+height = 5.6
+✅ Arithmetic Operators
+Operator	Description	Example	Output
++	Addition	10 + 5	15
+-	Subtraction	10 - 5	5
+*	Multiplication	10 * 5	50
+/	Division	10 / 5	2.0
+//	Floor Division	10 // 3	3
+%	Modulus (remainder)	10 % 3	1
+**	Exponentiation	2 ** 3	8
+
+✅ Comparison Operators
+python
+Copy
+Edit
+a = 10
+b = 5
+
+print(a > b)   # True
+print(a == b)  # False
+print(a != b)  # True
+✅ User Input
+python
+Copy
+Edit
+name = input("Enter your name: ")
+print("Hello,", name)
+🧠 Note: input() always returns a string. Use int() or float() to convert it if needed.
+
+python
+Copy
+Edit
+age = int(input("Enter your age: "))
+print("Next year you will be", age + 1)
