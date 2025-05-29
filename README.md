@@ -329,6 +329,82 @@ A **list** in Python is a collection of items in a particular order. Lists are *
 fruits = ["apple", "banana", "cherry"]
 numbers = [1, 2, 3, 4, 5]
 mixed = [1, "hello", 3.14, True]
+```
+## 2. Accessing List Items
+
+```python
+fruits = ["apple", "banana", "cherry"] 
+print(fruits[0])   # apple (first item)
+print(fruits[-1])  # cherry (last item)
+```
+## 3. Changing List Items
+
+```python
+fruits = ["apple", "banana", "cherry"]
+fruits[1] = "blueberry"
+print(fruits)  # ['apple', 'blueberry', 'cherry']
+```
+##4. Adding Items to a List
+
+```python
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")    # Add at the end
+fruits.insert(1, "kiwi")   # Add at index 1
+print(fruits)
+```
+append() and insert() keywords can be used to add element in list
+
+## 5. Removing Items from a List
+```python
+fruits = ["apple", "banana", "cherry"]
+fruits.remove("apple")    # Remove by value
+popped = fruits.pop()     # Remove last item
+print(fruits)
+print("Removed:", popped)
+```
+remove() and pop() keyword can be used to remove element from list
+
+## 6. Looping Through a List
+```python
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+```
+## 7. Joining Two Lists
+
+```python
+fruits = ["apple", "banana", "cherry"]
+vegetables = ["carrot", "lettuce"]
+food = fruits + vegetables
+print(food)
+```
+## 8. Sorting a List
+```python
+numbers = [5, 2, 9, 1]
+numbers.sort()        # Sort in ascending order
+print(numbers)
+
+numbers.sort(reverse=True)  # Sort descending
+print(numbers)
+```
+sort() keyword is used for sorting elements on list
+
+| Operation           | Method/Operator           |
+|---------------------|--------------------------|
+| Access              | `list[index]`            |
+| Change              | `list[index] = value`    |
+| Add (end)           | `list.append(value)`     |
+| Add (any position)  | `list.insert(index, value)` |
+| Remove by value     | `list.remove(value)`     |
+| Remove last item    | `list.pop()`             |
+| Loop                | `for item in list:`      |
+| Join                | `list1 + list2`          |
+| Sort                | `list.sort()`            |
+
+
+
+
+
 
 
 
