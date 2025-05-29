@@ -344,7 +344,7 @@ fruits = ["apple", "banana", "cherry"]
 fruits[1] = "blueberry"
 print(fruits)  # ['apple', 'blueberry', 'cherry']
 ```
-##4. Adding Items to a List
+## 4. Adding Items to a List
 
 ```python
 fruits = ["apple", "banana", "cherry"]
@@ -388,6 +388,8 @@ numbers.sort(reverse=True)  # Sort descending
 print(numbers)
 ```
 sort() keyword is used for sorting elements on list
+
+## Summary Table
 
 | Operation           | Method/Operator           |
 |---------------------|--------------------------|
