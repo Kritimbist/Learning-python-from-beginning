@@ -316,6 +316,19 @@ print("list1 is list3:", list1 is list3)       # False
 print("list1 is not list3:", list1 is not list3) # True
 ```
 
+# Day 003: Python Lists 📝
+
+## Introduction
+A **list** in Python is a collection of items in a particular order. Lists are **mutable**, meaning you can change their content after creation. They can hold items of different data types like numbers, strings, or even other lists.
+
+---
+
+## 1. Creating a List
+
+```python
+fruits = ["apple", "banana", "cherry"]
+numbers = [1, 2, 3, 4, 5]
+mixed = [1, "hello", 3.14, True]
 
 
 
